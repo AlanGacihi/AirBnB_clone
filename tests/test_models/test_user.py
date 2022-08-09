@@ -27,3 +27,14 @@ class TestUser(unittest.TestCase):
         """Check if user is a subclass of basemodel"""
         u = User()
         self.assertTrue(issubclass(type(u), BaseModel))
+
+    def test_isinstance(self):
+        """"Test if is an instance of the class"""
+        obj = User()
+        self.assertIsInstance(obj, User)
+
+    def test_args(self):
+        """Arguments to the instance"""
+        b = User(8)
+        self.assertEqual(type(b).__name__, "User")
+        self.assertFalse(hasattr(b, "8"))
