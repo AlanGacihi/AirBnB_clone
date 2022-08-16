@@ -1,0 +1,85 @@
+/*
+ * === Places class style ===
+ */
+.places {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/*article element style*/
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 390px;
+}
+
+/* Name and price header */
+.places .name_and_price {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+/* price style */
+.places .price_by_night {
+    border: #ff5a5f 4px rounded;
+    color: #ff5a5f;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    min-width: 60px;
+    height: 60px;
+}
+
+/*information style*/
+.places .information{
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.places .max_guest,
+.places .number_rooms,
+.places .number_bathrooms {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+/*user styles*/
+.places .user {
+  margin: 20px auto 20px auto;
+}
+
+.places h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: .67em 0 .67em 0;
+    width: 100%;
+}
+
+.places h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer{
+    position: relative;
+}
